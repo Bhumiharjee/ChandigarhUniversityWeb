@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    Body {
+        text-align: center;
+        font-family: Calibri, Helvetica, sans-serif;
+        background-image: url("../static/imgs/pic");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        color: white;
+    }
+
+    button {
+        text-align: center;
+        background-color: black;
+        width: 10%;
+        color: white;
+        padding: 15px;
+        margin: 10px 0px;
+        border: none;
+        cursor: pointer;
+    }
+
+    input[type=text],
+    input[type=password] {
+        width: 10%;
+        margin: 8px 0;
+        padding: 12px 20px;
+        display: inline-block;
+        border: 2px solid green;
+        box-sizing: border-box;
+    }
+
+    button:hover {
+        opacity: 0.7;
+    }
+
+    .cancelbtn {
+        width: 10%;
+        padding: 10px;
+        margin: 10px 5px;
+
+    }
+
+
+    .container {
+        padding: 5%;
+        color: white;
+    }
+</style>
+
+<body>
+    <center>
+        <h1> Dhruv Auto Info.</h1><br>
+        <h1> Login Form </h1>
+    </center>
+    {{!-- <form action="/user/userlogin" method="post">
+        <div class="container">
+            <label><b>Username : </b></label>
+            <input type="text" placeholder="Enter Username" name="username" required><br>
+            <label><b>Password : </b></label>
+            <input type="password" placeholder="Enter Password" name="password" required><br>
+            <button type="submit">Login </button><br>
+            <input type="checkbox" checked="checked"> Remember me <br>
+            Forgot <a href="#"> password? </a>
+        </div>
+    </form> --}}
+    <form action="/user/userlogin" method="post">
+        <div class="container">
+            <label><b>Username : </b></label><br>
+            <input type="text" placeholder="Enter Username" name="username" required><br>
+            <label><b>Password : </b></label><br>
+            <input type="password" placeholder="Enter Password" name="password" required><br>
+            <button type="submit">Login </button><br>
+            <br>
+            <input type="checkbox" checked="checked"> Remember me <br>
+            Forgot <a href="#"> password? </a>
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+    }
+
+    html {
+        box-sizing: border-box;
+    }
+
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
+    }
+
+    .pages {
+        text-align: right;
+    }
+
+    .column {
+        float: left;
+        width: 33.3%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 8px;
+    }
+
+    .about-section {
+        padding: 50px;
+        text-align: center;
+        background-color: skyblue;
+        color: black;
+    }
+
+    .about {
+        text-align: center;
+    }
+
+    .container {
+        padding: 0 16px;
+    }
+
+    .container::after,
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .title {
+        color: grey;
+    }
+
+    .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .button:hover {
+        background-color: #555;
+    }
+
+    @media screen and (max-width: 650px) {
+        .column {
+            width: 100%;
+            display: block;
+        }
+    }
+</style>
+
+<body>
+    <div class="pages">
+        <a href="/contact"><button>Contact US</button></a>
+        <a href="/logout"><button>Logout</button></a>
+    </div>
+    <img src="../static/imgs/cu-logo.jpg" alt="" width="200" height="100">
+    <div class="about-section">
+        <h1>About Chandigarh University</h1>
+        <p>The name of the university is inspired by The City Beautiful – Chandigarh, known as the epitome of cultural
+            heritage and urbanization.<br>
+            Chandigarh University offers a unique and inspirational academic model designed to match the international
+            standards.<br> A wide spectrum of programs is paired with flexibility, experiential learning and
+            interdisciplinary
+            orientation.<br>
+            CU is involved in world-class research, with outstanding results in the contemporary research excellence
+            framework.<br>
+            The University has a dynamic academic fraternity drawn from top universities nationally and internationally.
+            CU
+            offers the most conducive student-faculty ratio of 14:1,<br> leading to 85 per cent student satisfaction..
+        </p>
+    </div>
+
+    <div class="about">
+        <h3>Our college provides students with more than 30 courses to choose from.<br>We provide first class teachers
+            and
+            best environment for the studets to study.<br> We not only provide best education we also provide the
+            student with
+            the best quality of sports and other extra activities<br>We provide the students with many opportunities to
+            become
+            an all round student; who can excel in both studies and extra-curricular activities</h3>
+
+        <h2 style="text-align:center">Our Courses</h2>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <div class="container">
+                        <h2>B.Sc.(CS, Statistics and Mathamatics)</h2>
+                        <p>Fee per semester: 30500/- INR</p>
+                        <p>Duration: 3 years</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <div class="container">
+                        <h2>B.E. CSE(Hons.)</h2>
+                        <p>Fee per semester: 121000/- INP</p>
+                        <p>Duration: 4 years</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <div class="container">
+                        <h2>B.Sc (Forensic Science)</h2>
+                        <p>Fee per semester: 48000/- INR</p>
+                        <p>Duration: 3 years</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <div class="container">
+                        <h2>Bachelors of Arts-Economics</h2>
+                        <p>Fee per semester: 40500/- INP</p>
+                        <p>Duration: 3 years</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <div class="container">
+                        <h2>B.B.A(Hons.)- Business Analytics</h2>
+                        <p>Fee per semester: 63500/- INP</p>
+                        <p>Duration: 4 years</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <div class="container">
+                        <h2>B.B.A(Hons.)- Digital Marketing</h2>
+                        <p>Fee per semester: 63500/- INP</p>
+                        <p>Duration: 4 years</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <div class="container">
+                        <h2>B.C.A</h2>
+                        <p>Fee per semester: 56000/- INP</p>
+                        <p>Duration: 3 years</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <div class="container">
+                        <h2>B.C.A-ITP(Study in USA)</h2>
+                        <p>Fee per semester: 56000/- INP</p>
+                        <p>Duration: 3 years</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <div class="container">
+                        <h2>B.O.E.(Aerospace Engineering)</h2>
+                        <p>Fee per semester: 106000/- INP</p>
+                        <p>Duration: 4 years</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <div class="container">
+                        <h2>Doctor of Philosophy-(Civil Engineering)</h2>
+                        <p>Fee per semester: 70000/- INP</p>
+                        <p>Duration: 6 years</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <div class="container">
+                        <h2>M.C.A-CC & DevOps.(ITP)</h2>
+                        <p>Fee per semester: 65500/- INP</p>
+                        <p>Duration: 2 years</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <div class="container">
+                        <h2>M.C.A-Artificial Intelligence & Machine Learning</h2>
+                        <p>Fee per semester: 65500/- INP</p>
+                        <p>Duration: 2 years</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
