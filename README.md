@@ -34,7 +34,8 @@ Coding Section:-<br>
 
 <br>
 Output Section:-<br>
-![Screenshot (513)](https://user-images.githubusercontent.com/101163041/197020545-7d733151-a124-4e2e-9f66-d667518c0740.png)
+![sau1](https://user-images.githubusercontent.com/101163041/197022385-28eb1569-7506-4595-bdb4-db2d8fcd1130.jpg)
+
 
 
 <br>
